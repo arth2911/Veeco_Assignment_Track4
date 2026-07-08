@@ -16,8 +16,8 @@ Both components live in the same Sigma workbook on separate pages. Navigate betw
 
 | Component | Page | Link |
 |---|---|---|
-| Sigma Live Insight | Page 1 | [Open Sigma Live Insight](https://app.sigmacomputing.com/mes-test/workbook/Sigma-Live-Insight-2YbIGrEf6CNqXsqlbTxJvQ) |
-| Sigma Live Action | Action | [Open Sigma Live Action](https://app.sigmacomputing.com/mes-test/workbook/Sigma-Live-Insight-2YbIGrEf6CNqXsqlbTxJvQ) |
+| Sigma Live Insight | Page 1 | [Open Sigma Live Insight](https://app.sigmacomputing.com/mes-test/workbook/Sigma-Live-Insight-2YbIGrEf6CNqXsqlbTxJvQ/edit?:nodeId=TP-9xAGJQ4) |
+| Sigma Live Action | Action | [Open Sigma Live Action](https://app.sigmacomputing.com/mes-test/workbook/Sigma-Live-Insight-2YbIGrEf6CNqXsqlbTxJvQ/edit?:nodeId=fJq8WIyk0c) |
 
 ## Technical Architecture
 
@@ -58,6 +58,7 @@ Snowflake declares CHECK and FOREIGN KEY constraints in the DDL for documentatio
 
 ## Repository structure
 
+```text
 VEECO_ASSIGNMENT_TRACK4/
 ├── Data/
 │   ├── 00_setup.sql               # Warehouse, database, schema creation
@@ -75,6 +76,7 @@ VEECO_ASSIGNMENT_TRACK4/
 │   └── Sigma Live Insight.pdf     # Exported view of the Insight dashboard
 ├── .gitignore
 └── README.md
+```
 
 ## Snowflake setup from scratch
 
