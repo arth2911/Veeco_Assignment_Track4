@@ -21,7 +21,7 @@ locally.
 
 ## Technical Architecture
 
-![System architecture](Docs/Images/Database ER diagram_1 (1).png)
+![System architecture](Docs/Images/Database_ER_diagram_1.png)
 
 A technician submits a test result through Sigma Live Action. That write lands in
 Snowflake, the single source of truth both components read from and write to.
