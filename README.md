@@ -21,7 +21,7 @@ locally.
 
 ## Technical Architecture
 
-![System architecture](Docs/Images/Database_ER_diagram_1.png)
+![System architecture](Docs/Images/System_Architecture.png)
 
 A technician submits a test result through Sigma Live Action. That write lands in
 Snowflake, the single source of truth both components read from and write to.
@@ -33,7 +33,7 @@ without any manual sync step.
 
 ## Database Design
 
-![Database ERD](Docs/Images/System_Architecture.png)
+![Database ERD](Docs/Images/Database_ER_diagram_1.png)
 
 7 tables, all normalized so nothing has to be free-typed twice: `route`, `station`,
 `operator`, `reject_reason`, `route_step`, `unit`, `step_event`.
