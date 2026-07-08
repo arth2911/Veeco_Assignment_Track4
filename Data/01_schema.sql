@@ -83,7 +83,7 @@ CREATE TABLE step_event (
         (result = 'FAIL' AND reject_code IS NOT NULL) OR
         (result = 'PASS' AND reject_code IS NULL)
     ),
-    UNIQUE (serial_number, step_id, attempt_no),
+    UNIQUE (serial_number, step_id, attempt_no)
 
 );
 
