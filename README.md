@@ -19,6 +19,9 @@ Both components live in the same Sigma workbook on separate pages. Navigate betw
 | Sigma Live Insight | Page 1 | [Open Sigma Live Insight](https://app.sigmacomputing.com/mes-test/workbook/Sigma-Live-Insight-2YbIGrEf6CNqXsqlbTxJvQ/edit?:nodeId=TP-9xAGJQ4) |
 | Sigma Live Action | Action | [Open Sigma Live Action](https://app.sigmacomputing.com/mes-test/workbook/Sigma-Live-Insight-2YbIGrEf6CNqXsqlbTxJvQ/edit?:nodeId=fJq8WIyk0c) |
 
+## Kanban Board
+Created and updated a Kanban board on Trello to track progress over the assignment. Link for the Kanban board: (https://trello.com/b/Zwfdnx7k/sigma-live-mes) 
+
 ## Technical Architecture
 
 ![System architecture](Docs/Images/System_Architecture.png)
@@ -93,16 +96,16 @@ Run the files in `Data/` in numbered order in Snowflake Workspaces. Each file se
 
 ## AI-assisted development workflow
 
-This project was built with Claude (Anthropic) as the primary AI pairing tool, used to accelerate schema design, stored procedure logic, SQL porting, architecture documentation, and Git commit strategy. Every architectural decision, formula, and line of SQL was reviewed, understood, and verified against live data before being committed. The AI-pairing paradigm the assignment describes — use AI to accelerate, but demonstrate total technical mastery independently — was the operating mode throughout.
+This project was built with Claude code as the primary AI pairing tool, used to verify schema design, check stored procedure logic, help in SQL porting, format architecture documentation, and Git commit strategy. Also, claude code was used to come up with testing strategy for the final product.
 
 ## Status
 
 - [x] Architecture and data model documented
 - [x] Kanban board with full milestone breakdown
-- [x] Snowflake database setup — schema, views, seed data verified on real trial account
+- [x] Snowflake database setup — schema, views, seed data verified on real account
 - [x] Sigma service user with key-pair auth — resolves Snowflake MFA enforcement
 - [x] Sigma Live Insight — FPY, RTY, cycle time, WIP, reject Pareto — verified against hand-calculated baseline
 - [x] Sigma Live Action — stored procedure write-back, validated end-to-end with live submissions
 - [x] Result Message display — shows OK or ERROR string on every submission
 - [x] Validation enforced in procedure — PASS+reject_code and FAIL+no-reject_code both caught and surfaced to the user
-- [x] Git repository with incremental commit history reflecting real build progression including the Input Table to stored procedure pivot
+- [x] Validated the final SIGMA insight dashboard with Edge cases 
